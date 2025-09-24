@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 import groq
 
+print("imported all modules")
 class FinanceAssistant:
     def __init__(self):
         self.initialize_db()
